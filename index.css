@@ -99,6 +99,7 @@
     text-align: center;
     position: relative;
     margin-bottom: 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.137);
     
     
 }
@@ -108,7 +109,7 @@
     display: inline;
     position: absolute;
     left: 50px;
-     
+   
     bottom: 0;
 
 }
@@ -148,10 +149,12 @@
     justify-content: space-evenly;
     text-align: center;
     border-left: 8px solid #E55473;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.137);
     
 }
 .card-content img{
     width: 65px;
+     
 }
 .card-content strong{
     display: block;
@@ -173,6 +176,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 228px;
+    
  
 }
 .hot-deal-img img{
@@ -233,6 +237,7 @@
 .img-content img{
     width: 330px;
     border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.137);
 }
 .img-content img:hover{
     transform: scale(1.1);
@@ -252,6 +257,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 150px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.137);
 }
 .contact-content h1{
     color: #272727;
@@ -325,3 +331,5 @@
     display: block;
     
 }
+
+/* Alhamdulillah Finally Done */
