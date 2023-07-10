@@ -1,0 +1,327 @@
+/* Font link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* css start now  */
+ 
+/* banner section start  */
+
+.banner-section{
+    width: 100%;
+    height: 790px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-img img{
+    width: 630px;
+}
+.banner-text{
+    width: 600px;
+    
+}
+.banner-text h1{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}   
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.primary-btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 40px;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 550;
+    border: none;
+}
+.primary-btn:hover{
+    background: white;
+    color: #E55473;
+    transform: scale(1.0);
+    transition: all .4s;
+}
+
+/* our-flower-service  */
+
+.our-flower-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.flower-text{
+    margin-top: 170px;
+    text-align: center;
+}
+.flower-text h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.flower-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0 auto;
+    line-height: 30px;
+    width: 594px;
+    margin-top: 24px;
+}
+.flower-img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 380px;
+    height: 450px;
+    margin-right: 50px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    
+    
+}
+.flower-img img{
+    width: 270px;
+    margin-top: 70px;
+    display: inline;
+    position: absolute;
+    left: 50px;
+     
+    bottom: 0;
+
+}
+
+.flower-2{
+    
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3{
+    
+    background: rgba(71, 125, 17, 0.15);
+    margin-right: 0;
+}
+ 
+.img-text a{
+   margin-left: 100px;
+   color: #272727;
+   font-size: 25px;
+   font-weight: 700;
+}
+
+/* SIMPLE CARD SECTION  STASR CSS */
+
+.simple-card-section{
+    width: 100%;
+    margin-top: 120px;
+}
+.card-main{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1270px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-left: 8px solid #E55473;
+    
+}
+.card-content img{
+    width: 65px;
+}
+.card-content strong{
+    display: block;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* HOT DEAL SECTION CSS START  */
+
+.hot-deal-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 228px;
+ 
+}
+.hot-deal-img img{
+    width: 318px;
+}
+.hot-deal-text{
+    width: 550px;
+    text-align: center;
+    margin-right: 150px;
+}
+.hot-deal-text p{
+     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.hot-deal-text h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hot-deal-text span{
+    color: #E55473;
+}
+
+/* INSTAGRAM SECTION CSS START  */
+
+.instagram-section{
+    text-align: center;
+    margin-top: 225px;
+
+}
+.instagram-section h1{
+    color: #272727;
+    font-size: 40px; 
+    font-weight: 800;
+    
+}
+.instagram-section p{
+        color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.instagram-flower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+.img-content img{
+    width: 330px;
+    border-radius: 5px;
+}
+.img-content img:hover{
+    transform: scale(1.1);
+    transition: all .4s ;
+}
+
+/* CONTACT SECTION CSS START  */
+
+.contact-section{
+    background-image: url(flower/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.contact-content h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+     
+}
+.contact-content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+ 
+}
+.contact-content > input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 55px;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 19px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+}
+
+/* FOOTER SECTION START CSS  */
+
+.footer-section{
+    background: #111010;
+    width: 100%;
+    min-width: 1000px;
+    height: 450px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.footer-content span{
+    color: #E55473;
+}
+.footer-content{
+    width: 625px;
+}
+.footer-content p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 32px;
+}
+.footer-content small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    
+}
