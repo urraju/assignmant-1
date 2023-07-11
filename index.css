@@ -207,6 +207,81 @@
     color: #E55473;
 }
 
+
+
+/* flower-samble-section css start  */
+
+.flower-samble-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 170px;
+}
+.flower-samble-section h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.flower-samble-section p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+.samble-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    gap: 30px;
+    width: 1300px;
+    margin: auto;
+    margin-top: 100px;
+    
+
+}
+.price-img img{
+    width: 330px;
+
+}
+.third-img{
+    margin-top: 80px;
+    width: 300px;
+}
+.price-img img:hover{
+    transform: scale(1.1);
+    transition:  all .4s;
+}
+.price-img{
+    height: 440px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.076);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: #ffffff;
+
+}
+.price-section{
+    text-align: center;
+    margin-top: 20px;
+}
+.price-section strong{
+    font-size: 20px;
+
+}
+.price-section p{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.flower-samble{
+    padding: 20px;
+    
+}
+
+
 /* INSTAGRAM SECTION CSS START  */
 
 .instagram-section{
@@ -331,5 +406,5 @@
     display: block;
     
 }
-
+ 
 /* Alhamdulillah Finally Done */
